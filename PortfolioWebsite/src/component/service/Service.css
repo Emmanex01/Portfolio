@@ -1,0 +1,148 @@
+.Service_Container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.Timeline{
+    /* background-color: #a52a2a; */
+    padding: 2rem;
+    position: relative;
+}
+
+.Timeline_Container{
+    /* background-color: black; */
+    width: 50%;
+    position: relative;
+    padding: 1rem;
+    animation: movedown 2s linear forwards;
+    opacity: 0;
+}
+
+@keyframes movedown {
+    0% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Timeline_Container:nth-child(1){
+    animation-delay: 1s;
+}
+.Timeline_Container:nth-child(2){
+    animation-delay: 2s;
+}
+.Timeline_Container:nth-child(3){
+    animation-delay: 3s;
+}
+.Timeline_Container:nth-child(4){
+    animation-delay: 4s;
+}
+.Timeline_Container:nth-child(5){
+    animation-delay: 5s;
+}
+.Timeline_Container:nth-child(6){
+    animation-delay: 6s;
+}
+
+
+.Timeline_Container span{
+    background-image: linear-gradient(to right, red, green );
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 2;
+    animation: slido 6s linear forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 100%; 
+    }
+}
+
+@keyframes slido {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1; 
+    }
+}
+
+.right span{
+    left: -16px;
+}
+
+.text_box{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 4px;
+    
+}
+
+.text_box h1{
+    margin-bottom: 10px;
+}
+
+.text_box p, 
+.text_box h1{
+    text-align: start;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.right{
+    left: 50%;
+}
+
+.left{
+    left: 0;
+}
+
+.Service_Container h3,
+.Service_Container h1{
+    margin: 0.5rem 0;
+}
+
+.Timeline::after{
+    content: '';
+    width: 4px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: blue;
+    animation: slideIn 6s ease-in;
+    z-index: -1;
+}
+
+@media screen and (max-width: 450px) {
+    .left,
+    .right,
+    .Timeline::after{
+        left: 0;
+    }
+
+    .right span,
+    .left span{
+        left: -20px;
+    }
+
+    .Timeline_Container{
+        width: 100%;
+    }
+}

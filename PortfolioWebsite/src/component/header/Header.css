@@ -1,0 +1,98 @@
+.Header_Container{
+    overflow: hidden;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.Header_Container {
+    padding: 4rem 0;
+    position: relative;
+}
+
+.Header_Button{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem 0 ;
+
+}
+
+.Header_Button button{
+    padding: 0.8rem 1.5rem;
+}
+
+.Header_Container img{
+    width: 250px;
+    border-radius: 15rem 15rem 0 0;
+}
+
+.socialLink{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.socialLink .Line{
+    width: 2px;
+    height: 20px;
+    background-color: black;
+}
+
+.Header_Container nav {
+    /* background-color: gray; */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2px 10px;
+    bottom: 2rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(15px);
+    z-index: 10;
+}
+
+nav a{
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+nav a:hover{
+    background-color: gray;
+}
+
+.Header_Logo{
+    position: absolute;
+    display: flex;
+    transform: rotate(90deg);
+    right: 0;
+    font-weight:bold;
+    bottom: 4rem;
+}
+
+.active{
+    background-color: gray;
+}
+
+@media screen and (max-width: 400px) {
+    .socialLink{
+        display: none;
+    }
+    .Header_Logo{
+        display: none;
+    }
+
+    .Header_Container{
+        width: 95%;
+    }
+}
