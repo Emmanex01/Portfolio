@@ -1,6 +1,6 @@
 .Service_Container{
     width: 85%;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .Timeline{
@@ -90,7 +90,7 @@
 }
 
 .text_box{
-    background-color: gray;
+    background-color: blue;
     border-radius: 10px;
     padding: 4px;
     
@@ -125,7 +125,7 @@
     position: absolute;
     top: 0;
     height: 100%;
-    background-color: blue;
+    background-color: whitesmoke;
     animation: slideIn 6s ease-in;
     z-index: -1;
 }

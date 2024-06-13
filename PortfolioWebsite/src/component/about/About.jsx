@@ -6,7 +6,7 @@ import { FaRegUser } from "react-icons/fa";
 const About = () => {
   return (
     <div  className='about'>
-      <h2>Got to know</h2>
+      <h3>Got to know</h3>
       <h1>About Me</h1>
       <div className='About_center'>
         <div className='image'>
@@ -41,7 +41,7 @@ const About = () => {
                 0 to 100 for each DELTA (see the sidebar, “Example: 
                 Evaluating proficiency levels for DELTAs”).
             </p>
-            <button>Let's Talk</button>
+            <a href="#contact">Let's Talk</a> 
         </div>
       </div>
     </div>

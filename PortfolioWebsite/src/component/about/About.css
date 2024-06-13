@@ -3,6 +3,11 @@
     margin: 0 auto;
     overflow: hidden;
 }
+
+.about h1,
+.about h3{
+    margin: 0.5rem 0;
+}
 .about img{
     width: 100%;
     transform: rotate(10deg);
@@ -35,7 +40,7 @@
 }
 
 .information{
-    background-color: aqua;
+    background-color: blue;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -48,13 +53,21 @@
     width: 100%;
     text-align: start;
     margin-top: 1rem;
+    color: white;
+    font-size: 14px;
 }
 
-.About_center button{
+.About_center a{
     padding: 1rem;
     width: 8rem;
     margin-top: 2rem;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
 
+.About_center a:hover{
+    background-color: blue;
 }
 
 .about_side{

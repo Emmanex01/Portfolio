@@ -9,6 +9,10 @@
     position: relative;
 }
 
+.Header_Container h1{
+    font-size: 25px;
+}
+
 .Header_Button{
     display: flex;
     justify-content: center;
@@ -19,6 +23,15 @@
 
 .Header_Button button{
     padding: 0.8rem 1.5rem;
+}
+
+.Header_Button .btn{
+    background-color: var(--bg-color);
+    border: 1px solid gray;
+}
+
+.btn:hover{
+    background-color: blue;
 }
 
 .Header_Container img{

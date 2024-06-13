@@ -17,7 +17,7 @@ const Header = () => {
       <h2>Frontend Developer</h2>
       <div className='Header_Button'>
         <button>Download CV</button>
-        <button>Let's Talk</button>
+        <button className='btn'>Let's Talk</button>
       </div>
       <div className="socialLink">
         <a href=""><FaLinkedin/></a>

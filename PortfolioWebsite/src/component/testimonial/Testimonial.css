@@ -1,0 +1,40 @@
+.testimonial_container h3,
+.testimonial_container h1{
+    margin: 0.5rem 0;
+}
+
+.cards{
+    width: 40%;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.cards h3{
+    color: white;
+    font-size: large;
+}
+
+
+.cards_image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 3px;
+}
+
+.cards_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}

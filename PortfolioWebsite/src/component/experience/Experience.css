@@ -12,6 +12,7 @@
     background-color: blue;
     border-radius: 50px;
     width: 50%;
+    min-width: 400px;
     margin: 0 auto;
     padding: 2rem;
 }
