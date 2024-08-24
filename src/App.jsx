@@ -30,7 +30,8 @@ function App() {
             },
             {
               opacity: 1,
-              delay: 2,
+              delay: 1,
+              duration: 2,
               y: 0,
               ease: 'power1.inOut',
               scrollTrigger: {
