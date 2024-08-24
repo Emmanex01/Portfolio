@@ -31,15 +31,15 @@ const About = () => {
                 </div>
             </div>
             <p>
-                To ascertain proficiency levels, we defined a 
-                desirable level of proficiency in each of the 56 
-                DELTAs (see appendix for details), then devised a 
-                psychometric questionnaire to assess respondents’ 
-                proficiency against this bar. Eighteen thousand 
-                people from 15 countries completed the online 
-                questionnaire and were given a score on a scale of 
-                0 to 100 for each DELTA (see the sidebar, “Example: 
-                Evaluating proficiency levels for DELTAs”).
+                I am a dedicated Frontend Developer with a strong foundation in JavaScript, 
+                React, and modern web development. I excel at creating intuitive, responsive, 
+                and visually appealing interfaces that enhance user experience. 
+                With a passion for problem-solving and continuous learning, I stay updated on 
+                the latest industry trends to deliver high-quality, scalable web applications.
+                I thrive in collaborative environments, translating design ideas into 
+                seamless code and ensuring every project I work on meets and exceeds user 
+                expectations. I'm eager to contribute my skills and creativity to a dynamic 
+                team, driving innovation and excellence in web development.
             </p>
             <a href="#contact">Let's Talk</a> 
         </div>

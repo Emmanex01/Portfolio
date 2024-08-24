@@ -15,7 +15,7 @@ const Contact = () => {
                 <div className="contact_box">
                     <FaRegMessage/>
                     <h2>Email</h2>
-                    <h3>nwanosiketochukwu@gmail.com</h3>
+                    <h3>nwanosiketochukwu99@gmail.com</h3>
                     <p>send a message</p>
                 </div>
                 <div className="contact_box">
