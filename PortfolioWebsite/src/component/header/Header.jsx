@@ -7,6 +7,7 @@ import { FaDribbble } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
 import { FaBuromobelexperte } from "react-icons/fa";
 import { BsFillPersonVcardFill } from "react-icons/bs";
+import CV from './../../assets/CV/Nwanosike, Emmanuel Tochukwu_CV.pdf'
 
 const Header = () => {
   const [activeNav, setActiveNav] = useState("#Home")
@@ -16,7 +17,10 @@ const Header = () => {
       <h1>Emmanuel Tochukwu</h1>
       <h2>Frontend Developer</h2>
       <div className='Header_Button'>
-        <button>Download CV</button>
+        <a download={CV}>
+          <button>Download CV</button>
+        </a>
+        
         <button className='btn'>Let's Talk</button>
       </div>
       <div className="socialLink">

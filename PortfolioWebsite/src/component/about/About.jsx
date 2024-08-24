@@ -16,18 +16,18 @@ const About = () => {
             <div className='details'>
                 <div className='information'>
                     <FaRegUser/>
-                    <h2>Experience</h2>
-                    <h3>1+ year of working</h3>
+                    <h2>CodeAlpha</h2>
+                    <h3>1 month of internship</h3>
                 </div>
                 <div className='information'>
                     <FaRegUser/>
-                    <h2>Experience</h2>
-                    <h3>1+ year of working</h3>
+                    <h2>Artificial Intelligence</h2>
+                    <h3>years of working with AI tools</h3>
                 </div>
                 <div className='information'>
                     <FaRegUser/>
-                    <h2>Experience</h2>
-                    <h3>1+ year of working</h3>
+                    <h2>Innovixion Tech</h2>
+                    <h3>1 month of internship</h3>
                 </div>
             </div>
             <p>
