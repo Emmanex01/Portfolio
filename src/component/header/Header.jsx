@@ -10,7 +10,7 @@ import { BsFillPersonVcardFill } from "react-icons/bs";
 import CV from './../../assets/CV/Nwanosike, Emmanuel Tochukwu_CV.pdf'
 
 const Header = () => {
-  const [activeNav, setActiveNav] = useState("#Home")
+  // const [activeNav, setActiveNav] = useState("#Home")
   return (
     <div id='Home' className='Header_Container'>
       <h2>Hello, I'm</h2>
@@ -30,12 +30,6 @@ const Header = () => {
         <div className='Line'></div>
       </div>
       <img src={HeaderPics} alt="Image" />
-      <nav>
-        <a href="#Home" className={activeNav === "#Home" ? "active" : "" } onClick={() => setActiveNav("#Home")}><FaHome/></a>
-        <a href="#About" className={activeNav === "#user" ? "active" : "" } onClick={() => setActiveNav("#user")}><FaRegUser/></a>
-        <a href="#experience" className={activeNav === "#experience" ? "active" : "" } onClick={() => setActiveNav("#experience")}><FaBuromobelexperte/></a>
-        <a href="" className={activeNav === "#portfolio" ? "active" : "" } onClick={() => setActiveNav("#portfolio")}><BsFillPersonVcardFill/></a>
-      </nav>
       <div className='Header_Logo'><p>Emmanex</p></div>
     </div>
   )

@@ -5,6 +5,7 @@ import Experience from './component/experience/Experience';
 import Service from './component/service/Service';
 import Portfolio from './component/portfolio/Portfolio';
 import Contact from './component/contact/Contact';
+import NavBar from './component/NavBar/NavBar';
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";   
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -53,6 +54,7 @@ function App() {
       <Service/>
       <Portfolio/>
       <Contact/>
+      <NavBar/>
     </div>
   )
 }

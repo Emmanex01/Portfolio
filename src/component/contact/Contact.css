@@ -86,4 +86,7 @@ button{
     .contact_container{
         margin-bottom: 3rem;
     }
+    #contact{
+        padding-bottom: 10rem;
+    }
 }
