@@ -12,7 +12,7 @@
     background-color: blue;
     border-radius: 50px;
     width: 50%;
-    min-width: 400px;
+    /* min-width: 400px; */
     margin: 0 auto;
     padding: 2rem;
 }
@@ -51,9 +51,11 @@
 @media screen and (max-width: 400px) {
     .box_container{
         flex-direction: column;
+        width: 100%;
     }
 
     .Experience_container{
         width: 100%;
+        background-color: red;
     }
 }
